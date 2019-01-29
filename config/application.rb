@@ -16,5 +16,7 @@ module CalenderReact
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.react.addons = true
+    config.i18n.fallbacks = true
+    config.assets.initialize_on_precompile = false
   end
 end
